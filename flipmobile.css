@@ -1,0 +1,208 @@
+*{
+    margin:none;
+    padding:none;
+    border:none;
+}
+#navbar{
+    height:45.33px;
+    background-color:#FFFFFF;
+    padding:5px 12px 5px 12px;
+    display:flex;
+}
+#navflipkart{
+    background-image:url(flipkartphoto.svg);
+    background-size:cover;
+    width:110px;
+    align-items:center;
+    margin:8px 10px 8px 20px;
+}
+#navsearchbar{
+    display:flex;
+    align-items:center;
+    margin:8px 15px 8px 10px;
+}
+#navsearchbaricon{
+    
+    width:44px;
+    height:30px;
+    border:none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding:8px 0px 8px 12px;
+    background-color:#F8F4FC;
+    color:rgb(25, 117, 121);
+}
+#search{
+    border:none;
+    padding:8px 12px 8px 0px;
+    width:400.67px;
+    height:30px;
+    background-color:#F8F4FC;
+    color:black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size:18px;
+}
+#search:active{
+    border:none;
+    padding:8px 12px 8px 0px;
+    width:324.67px;
+    height:35px;
+    background-color:#F8F4FC;
+    color:black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size:18px;
+}
+#icon1{
+    height:26px;
+    width:26px;
+    margin-top:2px;
+}
+#navseller{
+    display:flex;
+    align-items:center;
+    margin-left:10px;
+    margin-right:20px;
+}
+#huticon {
+    height:26px;
+    width:26px;
+    padding:0px 3px 0px 10px;
+    align-items:center;
+}
+#icon2{
+    height:24px;
+    width:24px;
+}
+#navsellerbecome{
+    font-size:18px;
+    color:black;
+    font-weight:500;
+    align-items:center;
+}
+#navdropdown{
+    display:none;
+}
+#navmenudropdown{
+    display:none;
+}
+#navaccount{
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+    margin-right:20px;
+}
+#navaccount:hover #navdropdown{
+    margin-right:20px;
+    background-color:#F8F4FC;
+    border:1px solid darkslategrey;
+    border-radius:5px;
+    display:block;
+    align-items:center;
+    margin-left:20px;
+    position:absolute;
+    top:55px;
+    right:230px;
+    align-items:center;
+    padding:0px 5px 0px 5px;
+    z-index:1;
+}
+
+#icon3{
+    height:24px;
+    width:24px;
+}
+#name{
+    font-size:17px;
+    font-weight:500;
+    color:black;
+    align-items:center;
+    padding:0px 4px 0px 4px;
+}
+#icon4{
+    height:24px;
+    width:24px;
+}
+#navcart{
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+    margin-right:20px;
+}
+#icon5{
+    height:26px;
+    width:26px;
+}
+#cartname{
+    font-size:20px;
+    font-weight:500;
+    color:black;
+    align-items:center;
+    padding:0px 4px 0px 4px;
+}
+#navmenu{
+    display:flex;
+    align-items:center;
+    margin-left:40px;
+    margin-right:20px;
+}
+#navmenu:hover #navmenudropdown{
+    background-color:#F8F4FC;
+    border:1px solid darkslategrey;
+    border-radius:5px;
+    display:block;
+    align-items:center;
+    margin-left:40px;
+    position:absolute;
+    top:55px;
+    right:90px;
+    align-items:center;
+    padding:0px 5px 0px 5px;
+    z-index:1;
+}
+.navdrop{
+    display:flex;
+}
+.droppedlogo{
+    height:20px;
+    width:20px;
+    margin-top:5px;
+    align-items:center;
+}
+p{
+    margin-bottom:8px;
+    align-items:center;
+}
+#preferences{
+    display:flex;
+    align-items:center;
+}
+#customercare{
+    display:flex;
+    align-items:center;
+}
+#shopbackground{
+    background-image:url(offwhite.avif);
+    background-size:cover;
+    height:2000px;
+    width:auto;
+}
+#buybar{
+    height:30px;
+    padding:12px 20px 12px 20px;
+    background-color:#FFFFFF;
+    position:relative;
+    top:15px;
+    margin-bottom:20px;
+    display:flex;
+    align-items:center;
+}
+.buybarele{
+    color:black;
+    font-size:15px;
+    font-weight:600;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
